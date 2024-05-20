@@ -33,7 +33,11 @@ npm install vue-material-design-icons
 npm install vue3-carousel
 ```
 
-
+- MainLayout Section | Vue Js | Tailwind CSS [7:22](https://www.youtube.com/watch?v=MjkamZQJY_8&t=442s)
+- MenuItem Component [12:20](https://www.youtube.com/watch?v=MjkamZQJY_8&t=740s)
+- MainLayout Section [17:10](https://www.youtube.com/watch?v=MjkamZQJY_8&t=1030s)
+- CreatePostOverlay Component [25:00](https://www.youtube.com/watch?v=MjkamZQJY_8&t=1500s)
+- Home Page Carousel [39:17](https://www.youtube.com/watch?v=MjkamZQJY_8&t=2357s)
 
 #### Reference
 
