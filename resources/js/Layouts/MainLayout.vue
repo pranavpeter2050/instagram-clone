@@ -90,7 +90,47 @@ let showCreatePost = ref(false)
           <slot />
         </main>
       </div>
+
+      <div v-if="$page.url === '/'" id="SuggestionsSection" class="lg:w-4/12 lg:block hidden text-black mt-10">
+        <Link href="/" class="flex items-center justify-between max-w-[300px]">
+          <div class="flex items-center">
+            <img src="https://picsum.photos/id/33/300/320" class="rounded-full z-10 w-[58px] h-[58px]">
+            <div class="pl-4">
+              <div class="text-black font-extrabold">NAME HERE</div>
+              <div class="text-gray-500 text-extrabold text-sm">Name Here</div>
+            </div>
+          </div>
+          <button class="text-blue-500 hover:text-gray-900 text-xs font-extrabold">
+            Switch
+          </button>
+        </Link>
+
+        <div class="max-w-[300px] flex items-center justify-between py-3">
+          <div class="text-gray-500 font-extrabold">Suggestions for you</div>
+          <button class="text-blue-500 hover:text-gray-900 text-xs font-extrabold">
+            See All
+          </button>
+        </div>
+
+        <Link href="/" class="flex items-center justify-between max-w-[300px] pb-2">
+          <div class="flex items-center">
+            <img src="https://picsum.photos/id/23/300/320" class="rounded-full z-10 w-[37px] h-[37px]">
+            <div class="pl-4">
+              <div class="text-black font-extrabold">NAME HERE</div>
+              <div class="text-gray-500 text-extrabold text-sm">Name Here</div>
+            </div>
+          </div>
+          <button class="text-blue-500 hover:text-gray-900 text-xs font-extrabold">
+            Follow
+          </button>
+        </Link>
+        <div class="max-w-[300px] mt-5">
+          <div class="text-sm text-gray-400">About Help Press API Jobs Privacy Terms Locations Language Meta Verified</div>
+          <div class="text-left text-gray-400 mt-4">&copy; 2024 INSTAGRAM FROM META</div>
+        </div>
+      </div>
     </div>
 
+    
   </div>
 </template>
