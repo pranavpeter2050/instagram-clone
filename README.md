@@ -9,7 +9,10 @@
 
 # Fullstack Instagram Clone
 
-Instagram clone app using Laravel, Vue.Js, Tailwind and Inertia JS
+Instagram clone app using Laravel, Vue.Js, Tailwind and Inertia JS.
+
+- Laravel 11 comes preinstalled with `Tailwind` so no need to install it separately as in older versions. 
+- Remove some default template/vue files and routes that we will not be using
 
 ## Project setup
 
@@ -29,6 +32,7 @@ npm install vue-material-design-icons
 
 npm install vue3-carousel
 ```
+
 
 
 #### Reference
