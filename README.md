@@ -27,6 +27,7 @@ php artisan breeze:install
 // Install required NPM packages
 npm install vue-material-design-icons
 
+npm install vue3-carousel
 ```
 
 
