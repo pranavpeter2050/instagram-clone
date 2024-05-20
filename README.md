@@ -24,6 +24,9 @@ composer require laravel/breeze --dev
 php artisan breeze:install
 // select vue & then select ssr
 
+// Install required NPM packages
+npm install vue-material-design-icons
+
 ```
 
 
