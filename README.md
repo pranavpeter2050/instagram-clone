@@ -18,7 +18,11 @@ composer create-project laravel/laravel instagram-clone
 
 cd instagram clone
 
+// install laravel breeze
+composer require laravel/breeze --dev
 
+php artisan breeze:install
+// select vue
 
 ```
 
