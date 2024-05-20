@@ -22,7 +22,7 @@ cd instagram clone
 composer require laravel/breeze --dev
 
 php artisan breeze:install
-// select vue
+// select vue & then select ssr
 
 ```
 
