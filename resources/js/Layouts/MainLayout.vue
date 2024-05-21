@@ -51,7 +51,7 @@ let showCreatePost = ref(false)
     <div
       v-if="$page.url !== '/'"
       id="TopNavUser"
-      class="mg:hidden fixed flex items-center justify-between z-30 w-full bg-white h-[61px] border-b border-b-gray-300"
+      class="md:hidden fixed flex items-center justify-between z-30 w-full bg-white h-[61px] border-b border-b-gray-300"
     >
       <Link class="px-4">
         <ChevronLeft :size="30" class="cursor-pointer" />
