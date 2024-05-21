@@ -73,7 +73,10 @@ let showCreatePost = ref(false)
         <MenuItem iconString="Explore" class="mb-4" />
         <MenuItem iconString="Messages" class="mb-4" />
         <MenuItem iconString="Notifications" class="mb-4" />
-        <MenuItem iconString="Profile" class="mb-4" />
+        <MenuItem @click="showCreatePost = true" iconString="Create" class="mb-4" />
+        <Link href="/">
+          <MenuItem iconString="Profile" class="mb-4" />
+        </Link>
       </div>
 
       <Link href="/" class="absolute bottom-0 px-3 w-full">
@@ -131,6 +134,20 @@ let showCreatePost = ref(false)
       </div>
     </div>
 
-    
+    <div id="BottomNav" class="fixed z-30 bottom-0 w-full md:hidden flex items-center justify-around bg-white border-t py-2 border-t-gray-300">
+      <Link href="/">
+        <HomeOutline fillColor="#000000" :size="33" class="cursor-pointed" />
+      </Link>
+      <Compass fillColor="#000000" :size="33" class="cursor-pointer" />
+      <SendOutline fillColor="#000000" :size="33" class="cursor-pointer" />
+      <Plus @click="showCreatePost = true" fillColor="#000000" :size="33" class="cursor-pointer" />
+      <AccountOutline fillColor="#000000" :size="33" class="cursor-pointer" />
+      <Link href="/">
+        <img
+          class="rounded-full w-[30px] cursor-pointer"
+          src="https://picsum.photos/id/33/300/320"
+        >
+      </Link>
+    </div>
   </div>
 </template>
