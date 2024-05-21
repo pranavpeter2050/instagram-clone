@@ -45,6 +45,14 @@ Home page uses `vue3-carousel`. Read more about it [here](https://ismail9k.githu
 - Home Page Posts [46:24](https://www.youtube.com/watch?v=MjkamZQJY_8&t=2784s)
 - Likes Component [48:28](https://www.youtube.com/watch?v=MjkamZQJY_8&t=2908s)
 - Home Page [48:28](https://www.youtube.com/watch?v=MjkamZQJY_8&t=2980s)
+- User Page | Vue Js | Tailwind CSS [50:41](https://www.youtube.com/watch?v=MjkamZQJY_8&t=3041s)
+- User Page ContentOverlay Component [1:00:12](https://www.youtube.com/watch?v=MjkamZQJY_8&t=3612s)
+- User Page ContentOverlay Component [1:03:08](https://www.youtube.com/watch?v=MjkamZQJY_8&t=3788s)
+
+- Connect Database & Register User | Laravel [1:08:10](https://www.youtube.com/watch?v=MjkamZQJY_8&t=4090s)
+
+- ShowPostOverlay | Vue JS | Tailwind CSS [1:11:07](https://www.youtube.com/watch?v=MjkamZQJY_8&t=4267s)
+- ShowPostOptionsOverlay [1:23:07](https://www.youtube.com/watch?v=MjkamZQJY_8&t=4987s)
 
 #### Reference
 
