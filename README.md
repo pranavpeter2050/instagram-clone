@@ -37,6 +37,8 @@ npm install vue3-carousel
 - MenuItem Component [12:20](https://www.youtube.com/watch?v=MjkamZQJY_8&t=740s)
 - MainLayout Section [17:10](https://www.youtube.com/watch?v=MjkamZQJY_8&t=1030s)
 - CreatePostOverlay Component [25:00](https://www.youtube.com/watch?v=MjkamZQJY_8&t=1500s)
+This is the first time a method is defined to call on the API endpoint. `createPostFunc()` uses `router` by `InertisJS` which doesn't require us to explicitly install/call `axios`. Read more about how InteriaJS does this [here](https://inertiajs.com/manual-visits).
+
 - Home Page Carousel [39:17](https://www.youtube.com/watch?v=MjkamZQJY_8&t=2357s)
 
 #### Reference

@@ -13,6 +13,7 @@ import ChevronLeft from 'vue-material-design-icons/ChevronLeft.vue'
 import AccountPlusOutline from 'vue-material-design-icons/AccountPlusOutline.vue'
 
 import MenuItem from '@/Components/MenuItem.vue';
+import CreatePostOverlay from '@/Components/CreatePostOverlay.vue';
 
 let showCreatePost = ref(false)
 </script>
@@ -150,4 +151,6 @@ let showCreatePost = ref(false)
       </Link>
     </div>
   </div>
+
+  <CreatePostOverlay v-if="showCreatePost" @close="showCreatePost = false" />
 </template>
