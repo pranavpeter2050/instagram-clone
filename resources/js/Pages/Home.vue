@@ -2,6 +2,7 @@
 import { ref, onMounted, toRefs } from 'vue'
 import { Head, Link, router } from '@inertiajs/vue3'
 import MainLayout from '@/Layouts/MainLayout.vue';
+import LikeSection from '@/Components/LikeSection.vue';
 
 import 'vue3-carousel/dist/carousel.css';
 import { Carousel, Slide, Navigation } from 'vue3-carousel';
@@ -53,7 +54,28 @@ onMounted(() => {
                 </template>
             </Carousel>
 
-            
+            <div id="Posts" class="px-4 max-w-[600px] mx-auto mt-10">
+                <div class="flex items-center justify-between py-2">
+                    <div class="flex items-center">
+                        <Link href="/" class="flex items-center">
+                            <img src="https://picsum.photos/id/49/300/320" class="rounded-full w-[38px] h-[38px]">
+                            <div class="ml-4 font-extrabold text-[15px]">NAME HERE</div>
+                        </Link>
+                        <div class="flex items-center text-[15px] text-gray-500">
+                            <span class="-mt-5 ml-2 mr-[5px] text-[35px]">.</span>
+                            Date Here
+                        </div>
+                    </div>
+
+                    <DotsHorizontal :size="27" class="cursor-pointer" />
+                </div>
+
+                <div class="bg-black rounded-lg w-full min-h-[400px] flex items-center">
+                    <img src="https://picsum.photos/id/530/300/320" class="mx-auto w-full">
+                </div>
+
+                <LikeSection />
+            </div>
         </div>
     </MainLayout>
 </template>
