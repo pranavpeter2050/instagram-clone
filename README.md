@@ -40,6 +40,11 @@ npm install vue3-carousel
 This is the first time a method is defined to call on the API endpoint. `createPostFunc()` uses `router` by `InertisJS` which doesn't require us to explicitly install/call `axios`. Read more about how InteriaJS does this [here](https://inertiajs.com/manual-visits).
 
 - Home Page Carousel [39:17](https://www.youtube.com/watch?v=MjkamZQJY_8&t=2357s)
+Home page uses `vue3-carousel`. Read more about it [here](https://ismail9k.github.io/vue3-carousel/getting-started.html)
+
+- Home Page Posts [46:24](https://www.youtube.com/watch?v=MjkamZQJY_8&t=2784s)
+- Likes Component [48:28](https://www.youtube.com/watch?v=MjkamZQJY_8&t=2908s)
+- Home Page [48:28](https://www.youtube.com/watch?v=MjkamZQJY_8&t=2980s)
 
 #### Reference
 
