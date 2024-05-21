@@ -3,6 +3,7 @@ import { ref, onMounted, toRefs } from 'vue'
 import { Head, Link, router } from '@inertiajs/vue3'
 import MainLayout from '@/Layouts/MainLayout.vue';
 import LikeSection from '@/Components/LikeSection.vue';
+import ShowPostOverlay from '@/Components/ShowPostOverlay.vue';
 
 import 'vue3-carousel/dist/carousel.css';
 import { Carousel, Slide, Navigation } from 'vue3-carousel';
@@ -81,7 +82,10 @@ onMounted(() => {
                     <span class="text-black font-extrabold">Name Here</span>
                     this is some text here
                 </div>
-                <button class="text-gray-500 font-extrabold py-1">
+                <button
+                    @click="openOverlay = true"
+                    class="text-gray-500 font-extrabold py-1"
+                >
                     View all 4 comments
                 </button>
             </div>
@@ -89,6 +93,12 @@ onMounted(() => {
             <div class="pb-20" />
         </div>
     </MainLayout>
+
+    <ShowPostOverlay
+        v-if="openOverlay"
+        :post="currentPost"
+        @closeOverlay="openOverlay = false"
+    />
 </template>
 
 <style>
