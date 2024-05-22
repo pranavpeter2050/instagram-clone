@@ -23,7 +23,7 @@ class UserController extends Controller
 
         return Inertia::render('User', [
             'user' => $user,
-            'postByUser' => new AllPostsCollection($posts)
+            'postsByUser' => new AllPostsCollection($posts)
         ]); 
     }
 
