@@ -104,11 +104,14 @@ php artisan make:resource AllPostsCollection
 
 - Like Controller Model & Migration | Laravel [1:41:15](https://www.youtube.com/watch?v=MjkamZQJY_8&t=6075s)
 - Comment Controller Model & Migration | Laravel [1:43:07](https://www.youtube.com/watch?v=MjkamZQJY_8&t=6187s)
+- User Controller | Laravel [1:46:49](https://www.youtube.com/watch?v=MjkamZQJY_8&t=6409s)
+- Controller Endpoints [1:48:34](https://www.youtube.com/watch?v=MjkamZQJY_8&t=6514s)
+- Eloquent Relations | One to Many | Belongs To [1:49:16](https://www.youtube.com/watch?v=MjkamZQJY_8&t=6556s)
 
+- Connecting Back & Front  | Vue JS | Tailwind CSS | Laravel [1:51:38](https://www.youtube.com/watch?v=MjkamZQJY_8&t=6698s)
+- Final check of our application FINISHED!!! [2:25:45](https://www.youtube.com/watch?v=MjkamZQJY_8&t=8745s)
 
-
-
-#### Reference
+### Reference
 
 - [Full Stack Instagram Clone by John Weeks Dev](https://www.youtube.com/watch?v=MjkamZQJY_8)
 - [Laravel Docs, v11](https://laravel.com/docs/11.x)
