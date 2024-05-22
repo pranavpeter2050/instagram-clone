@@ -15,7 +15,7 @@ class PostController extends Controller
     {
         $post = new Post;
         $request->validate([
-            'file' => 'required|mimetypes:jpg,jpeg,png',
+            'file' => 'required|mimes:jpg,jpeg,png',
             'text' => 'required'
         ]);
         $post = (new FileService)->updateFile($post, $request, 'post');
