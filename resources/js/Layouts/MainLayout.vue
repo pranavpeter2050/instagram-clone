@@ -53,7 +53,7 @@ let showCreatePost = ref(false)
       id="TopNavUser"
       class="md:hidden fixed flex items-center justify-between z-30 w-full bg-white h-[61px] border-b border-b-gray-300"
     >
-      <Link class="px-4">
+      <Link href="/" class="px-4">
         <ChevronLeft :size="30" class="cursor-pointer" />
       </Link>
       <div class="font-extrabold text-lg">{{ $page.props.auth.user.name }}</div>
