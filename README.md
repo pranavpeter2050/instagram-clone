@@ -94,8 +94,14 @@ Read `intervention/image-laravel` package related documentation [here](https://i
 
 - Post Controller Model & Migration | Laravel [1:32:47](https://www.youtube.com/watch?v=MjkamZQJY_8&t=5567s)
 - Home Controller | Laravel [1:36:04](https://www.youtube.com/watch?v=MjkamZQJY_8&t=5764s)
-
 - AllPostsCollection | Laravel Collections [1:37:36](https://www.youtube.com/watch?v=MjkamZQJY_8&t=5856s)
+
+```bash
+php artisan make:controller HomeController
+
+php artisan make:resource AllPostsCollection
+```
+
 - Like Controller Model & Migration | Laravel [1:41:15](https://www.youtube.com/watch?v=MjkamZQJY_8&t=6075s)
 - Comment Controller Model & Migration | Laravel [1:43:07](https://www.youtube.com/watch?v=MjkamZQJY_8&t=6187s)
 
