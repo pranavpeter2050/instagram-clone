@@ -8,9 +8,9 @@ import HomeOutline from 'vue-material-design-icons/HomeOutline.vue'
 import Compass from 'vue-material-design-icons/Compass.vue'
 import SendOutline from 'vue-material-design-icons/SendOutline.vue'
 import Plus from 'vue-material-design-icons/Plus.vue'
-import AccountOutline from 'vue-material-design-icons/AccountOutline.vue'
 import ChevronLeft from 'vue-material-design-icons/ChevronLeft.vue'
 import AccountPlusOutline from 'vue-material-design-icons/AccountPlusOutline.vue'
+import Logout from 'vue-material-design-icons/Logout.vue';
 
 import MenuItem from '@/Components/MenuItem.vue';
 import CreatePostOverlay from '@/Components/CreatePostOverlay.vue';
@@ -145,12 +145,14 @@ let showCreatePost = ref(false)
       <Compass fillColor="#000000" :size="33" class="cursor-pointer" />
       <SendOutline fillColor="#000000" :size="33" class="cursor-pointer" />
       <Plus @click="showCreatePost = true" fillColor="#000000" :size="33" class="cursor-pointer" />
-      <AccountOutline fillColor="#000000" :size="33" class="cursor-pointer" />
       <Link :href="route('users.show', { id: $page.props.auth.user.id })">
         <img
           class="rounded-full w-[30px] cursor-pointer"
           :src="$page.props.auth.user.file"
         >
+      </Link>
+      <Link :href="route('logout')" as="button" method="post">
+        <Logout fillColor="#000000" :size="33" class="cursor-pointer" />
       </Link>
     </div>
   </div>
